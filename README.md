@@ -1,5 +1,11 @@
 # sip-tools
 
+
+tcpdump
+
+> tcpdump net 8.8.8.8  –vvv –I any –x –s0 –w /tmp/file.cap
+
+
 Wireshark (tshark, capinfos)
 
 [sngrep](https://github.com/irontec/sngrep)
@@ -15,6 +21,8 @@ Wireshark (tshark, capinfos)
 from source
 
 ### usage
+
+sipgrep -t 241
 
 
 
